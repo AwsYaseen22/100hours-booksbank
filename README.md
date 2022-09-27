@@ -6,6 +6,15 @@ This App is about keep track of what you're reading, save your favorite parts, c
 
 ## App online: [booksbank](https://booksbank-app.herokuapp.com)
 
+## To run the app you need to create a config.env file in config folder with the following details:
+
+```
+PORT (port number)
+DB_CONNECTION (database connection string from mongodb )
+GOOGLE_CLIENT_ID (used for passport google authentication)
+GOOGLE_CLIENT_SECRET (used for passport goole authentication)
+```
+
 ### App flow:
 
 the app main page listing the books read by people with brief note and list of quotes each card have the user name which you can click on it to filter out the books to the specific user books list, also there is a more link to go to the specific book full details
